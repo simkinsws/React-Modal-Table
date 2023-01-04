@@ -1,0 +1,42 @@
+.tr-border {
+    border: 1px solid #dddddd;
+    padding: 8px;
+}
+
+table { 
+    border-collapse: collapse; 
+    
+}
+
+td {
+    margin: 10px;
+    cursor: pointer;
+    padding: 20px;
+}
+
+/* Variables */
+:root {
+    --a-accent: #F5CB5C;
+    --a-tertiary: #313E52;
+    --a-width: 100vw;
+    --a-height: 100vh;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    border: none;
+  }
+  
+  .app {
+    width: var(--a-width);
+    height: var(--a-height);
+  }
+    
+  .app_content {
+    width: 100%;
+  }
